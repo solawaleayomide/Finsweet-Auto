@@ -44,3 +44,27 @@ export const InputField = [
     text: "Your phone number",
   },
 ];
+
+export const ProcessData = [
+  {
+    id: 1,
+    icon: "01",
+    text1: "Get a Quote",
+    text2:
+      "Through True Rich Attended does no end it his mother since real had half every him.",
+  },
+  {
+    id: 2,
+    icon: "02",
+    text1: "Book an Appointment",
+    text2:
+      "Through True Rich Attended does no end it his mother since real had half every him.",
+  },
+  {
+    id: 3,
+    icon: "03",
+    text1: "Get your Service Done",
+    text2:
+      "Through True Rich Attended does no end it his mother since real had half every him.",
+  },
+];

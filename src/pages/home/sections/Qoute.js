@@ -1,11 +1,12 @@
 import React from "react";
 import { InputField, Qoutes } from "../../../datas/Home";
 import Btn from "../../../components/Btn";
+import CardIcon from "../../../components/CardIcon";
 
 function Qoute() {
   return (
     <div className="bg-steelgrey">
-      <div className="container py-[4rem]">
+      <div className="container py-[5rem]">
         <div className="md:flex">
           <div className="md:w-1/2 md:pr-[4rem]">
             <h2 className="text-center md:text-start text-2xl md:text-4xl font-bold mb-[3rem]">
@@ -15,18 +16,11 @@ function Qoute() {
             <div>
               {Qoutes.map((qoute, _i) => {
                 return (
-                  <div className="flex gap-7 items-start mb-8">
-                    <div className="bg-white p-2 rounded-full">
-                      {qoute.icon}
-                    </div>
-
-                    <div>
-                      <h3 className="font-bold mb-3 text-[1.2rem]">
-                        {qoute.text1}
-                      </h3>
-                      <p className="text-[0.9rem]">{qoute.text2}</p>
-                    </div>
-                  </div>
+                  <CardIcon
+                    icon={qoute.icon}
+                    text1={qoute.text1}
+                    text2={qoute.text2}
+                  />
                 );
               })}
             </div>
@@ -36,7 +30,7 @@ function Qoute() {
             </div>
           </div>
 
-          <div className="md:w-1/2 md:pl-[4rem]">
+          <div className="mt-[6rem] md:mt-0 md:w-1/2 md:pl-[4rem]">
             <h2 className="text-center md:text-start text-2xl md:text-3xl font-bold mb-[3rem]">
               Get a quote for the car service
             </h2>

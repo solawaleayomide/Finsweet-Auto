@@ -14,7 +14,7 @@ function Navbar() {
   };
 
   return (
-    <nav className="container py-5 fixed z-50 top-0 left-0 bg-[#fff] md:pb-0">
+    <nav className="container py-5 fixed z-50 top-0 left-0 bg-[#fff]">
       <div className="md:flex md:justify-between">
         <div className="flex justify-between items-center">
           <h2 className="font-bold text-[1.3rem]">Finsweet Auto</h2>
@@ -33,7 +33,7 @@ function Navbar() {
             isOpen ? "block" : "hidden"
           } mt-4 md:mt-0 md:flex md:justify-between items-center`}
         >
-          <ul className="flex flex-col md:flex-row gap-6 md:gap-8 md:mr-8">
+          <ul className="flex flex-col md:flex-row gap-6 md:gap-8  md:mr-8">
             {navLinks.map((link) => (
               <li
                 key={link.id}
