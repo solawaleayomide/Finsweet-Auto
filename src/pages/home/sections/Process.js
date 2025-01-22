@@ -7,7 +7,7 @@ function Process() {
   return (
     <div className="container py-[5rem]">
       <div className="md:flex">
-        <div className="md:w-1/2 md:pr-[4rem]">
+        <div className="md:w-1/2">
           <h2 className="text-center md:text-start text-2xl md:text-4xl font-bold mb-[2rem]">
             We follow a clear process to help you out.
           </h2>
@@ -22,7 +22,7 @@ function Process() {
           </div>
         </div>
 
-        <div className="mt-[5rem] md:mt-0 md:pr-[10rem] md:pl-[2rem]">
+        <div className="md:w-1/2 mt-[5rem] md:mt-0  md:pl-[2rem]">
           {ProcessData.map((process, _i) => {
             return (
               <CardIcon

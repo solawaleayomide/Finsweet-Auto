@@ -14,8 +14,8 @@ function Navbar() {
   };
 
   return (
-    <nav className="container py-5 fixed z-50 top-0 left-0 bg-[#fff]">
-      <div className="md:flex md:justify-between">
+    <nav className="fixed top-0 left-0 right-0 bg-white z-50 py-7">
+      <div className="container md:flex md:justify-between">
         <div className="flex justify-between items-center">
           <h2 className="font-bold text-[1.3rem]">Finsweet Auto</h2>
 

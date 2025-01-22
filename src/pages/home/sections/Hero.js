@@ -6,9 +6,9 @@ import { CiClock2 } from "react-icons/ci";
 function Hero() {
   return (
     <div className="container">
-      <div className="mt-[6rem] md:mt-[8rem] md:flex md:items-center">
+      <div className="mt-[6rem] mb-[4rem] md:mt-[8rem] md:flex md:items-center">
         <div className="text-center md:text-start mb-7 md:mb-0 md:w-1/2">
-          <h2 className="mb-5 font-bold text-4xl md:text-5xl">
+          <h2 className="mb-5 font-bold text-4xl">
             Get your vehicle service done online at one place
           </h2>
           <Btn text={"Get Started"} />
