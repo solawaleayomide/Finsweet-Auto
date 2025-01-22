@@ -2,6 +2,7 @@ import React from "react";
 import Hero from "./sections/Hero";
 import Qoute from "./sections/Qoute";
 import Process from "./sections/Process";
+import Offer from "./sections/Offer";
 
 function Home() {
   return (
@@ -9,6 +10,7 @@ function Home() {
       <Hero />
       <Qoute />
       <Process />
+      <Offer />
     </div>
   );
 }
