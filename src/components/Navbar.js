@@ -14,7 +14,7 @@ function Navbar() {
   };
 
   return (
-    <nav className="container mt-5 fixed z-50 top-0 left-0 bg-slate-50 pb-5 md:pb-0">
+    <nav className="container mt-5 fixed z-50 top-0 left-0 bg-[#fff] pb-5 md:pb-0">
       <div className="md:flex md:justify-between">
         <div className="flex justify-between items-center">
           <h2 className="font-bold text-[1.3rem]">Finsweet Auto</h2>
