@@ -1,5 +1,6 @@
 import React from "react";
 import { Offers } from "../../../datas/Home";
+import { IoIosArrowRoundForward } from "react-icons/io";
 
 function Offer() {
   return (
@@ -24,6 +25,11 @@ function Offer() {
               </div>
             );
           })}
+        </div>
+
+        <div className="flex gap-5 items-center justify-center md:justify-end mt-[1rem] pb-10">
+          <p>Learn about services</p>
+          <IoIosArrowRoundForward />
         </div>
       </div>
     </div>

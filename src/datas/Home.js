@@ -120,3 +120,26 @@ export const Offers = [
     text: "Custom Service",
   },
 ];
+
+export const Ctas = [
+  {
+    id: 1,
+    text1: "20+",
+    text2: "Proffesional",
+  },
+  {
+    id: 2,
+    text1: "10+",
+    text2: "Years Eperience",
+  },
+  {
+    id: 3,
+    text1: "12k+",
+    text2: "Service Closed",
+  },
+  {
+    id: 4,
+    text1: "100%",
+    text2: "Customer Satisfaction",
+  },
+];
