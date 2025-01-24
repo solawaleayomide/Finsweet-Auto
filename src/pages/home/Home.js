@@ -6,6 +6,7 @@ import Offer from "./sections/Offer";
 import Cta from "./sections/Cta";
 import Brands from "./sections/Brands";
 import Testimonials from "./sections/Testimonials";
+import Faqs from "./sections/Faqs";
 
 function Home() {
   return (
@@ -17,6 +18,7 @@ function Home() {
       <Cta />
       <Brands />
       <Testimonials />
+      <Faqs />
     </div>
   );
 }

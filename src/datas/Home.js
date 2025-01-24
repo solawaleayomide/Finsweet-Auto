@@ -218,3 +218,36 @@ export const testimonials = [
     text: "I have got my car repaired at Finsweet many times before, they are good at what they do. Not only did they repair my car in a short comprehensive look on all the working.",
   },
 ];
+
+export const Faq = [
+  {
+    id: 1,
+    question: "How long should a car repair take?",
+    answer:
+      "I have got my car repaired at Finsweet many times before, they are good at what they do. Not only did they repair my car I have got my car repaired at Finsweet I have got my car repaired at Finsweet",
+  },
+  {
+    id: 2,
+    question: "How long should a car repair take?",
+    answer:
+      "I have got my car repaired at Finsweet many times before, they are good at what they do. Not only did they repair my car I have got my car repaired at Finsweet I have got my car repaired at Finsweet",
+  },
+  {
+    id: 3,
+    question: "How long should a car repair take?",
+    answer:
+      "I have got my car repaired at Finsweet many times before, they are good at what they do. Not only did they repair my car I have got my car repaired at Finsweet I have got my car repaired at Finsweet",
+  },
+  {
+    id: 4,
+    question: "How long should a car repair take?",
+    answer:
+      "I have got my car repaired at Finsweet many times before, they are good at what they do. Not only did they repair my car I have got my car repaired at Finsweet I have got my car repaired at Finsweet",
+  },
+  {
+    id: 5,
+    question: "How long should a car repair take?",
+    answer:
+      "I have got my car repaired at Finsweet many times before, they are good at what they do. Not only did they repair my car I have got my car repaired at Finsweet I have got my car repaired at Finsweet",
+  },
+];
