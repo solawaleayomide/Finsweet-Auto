@@ -32,7 +32,7 @@ function Faqs() {
                 </div>
 
                 {isActive && ( // Render the answer only if this FAQ is active
-                  <p className="md:pr-[15rem] text-gray-700">{faq.answer}</p>
+                  <p className="text-gray-700">{faq.answer}</p>
                 )}
               </div>
             );
