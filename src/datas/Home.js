@@ -251,3 +251,18 @@ export const Faq = [
       "I have got my car repaired at Finsweet many times before, they are good at what they do. Not only did they repair my car I have got my car repaired at Finsweet I have got my car repaired at Finsweet",
   },
 ];
+
+export const footer = [
+  {
+    text1: "Help line Number",
+    text2: "1800 265 24 52",
+  },
+  {
+    text1: "Address",
+    text2: "NH 234   Public Square San Francisco  65368",
+  },
+  {
+    text1: "We are open",
+    text2: "Monday to Friday 9:00 AM to  10:00  AM",
+  },
+];
