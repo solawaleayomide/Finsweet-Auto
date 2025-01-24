@@ -37,7 +37,7 @@ function Cta() {
       </div>
 
       <div className="container mt-6">
-        <div className="grid grid-cols-2 md:grid-cols-4 gap-4 text-center">
+        <div className="grid grid-cols-2 md:grid-cols-4 gap-4 text-center pb-7">
           {Ctas.map((cta, _i) => {
             return (
               <div>

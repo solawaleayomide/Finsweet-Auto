@@ -11,6 +11,19 @@ import img6 from "../assets/Icon (7).png";
 import img7 from "../assets/Icon (8).png";
 import img8 from "../assets/Icon (9).png";
 
+import img01 from "../assets/logo-1 1.png";
+import img02 from "../assets/logo-3.png";
+import img03 from "../assets/logo-6@2x.png";
+import img04 from "../assets/logo-7 1.png";
+import img05 from "../assets/logo-8 1.png";
+
+import img001 from "../assets/Image (2).png";
+import img002 from "../assets/Image (3).png";
+import img003 from "../assets/Image (2).png";
+import img004 from "../assets/Image (3).png";
+import img005 from "../assets/Image (2).png";
+import img006 from "../assets/Image (3).png";
+
 export const Qoutes = [
   {
     id: 1,
@@ -141,5 +154,67 @@ export const Ctas = [
     id: 4,
     text1: "100%",
     text2: "Customer Satisfaction",
+  },
+];
+
+export const Brand = [
+  {
+    id: 1,
+    icon: img01,
+  },
+  {
+    id: 2,
+    icon: img02,
+  },
+  {
+    id: 3,
+    icon: img03,
+  },
+  {
+    id: 4,
+    icon: img04,
+  },
+  {
+    id: 5,
+    icon: img05,
+  },
+];
+
+export const testimonials = [
+  {
+    name: "Jonathan Vallem",
+    location: "New York",
+    image: img001,
+    text: "I have got my car repaired at Finsweet many times before, they are good at what they do. Not only did they repair my car in a short comprehensive look on all the working.",
+  },
+  {
+    name: "Smith Johnson",
+    location: "New York",
+    image: img002,
+    text: "I have got my car repaired at Finsweet many times before, they are good at what they do. Not only did they repair my car in a short comprehensive look on all the working.",
+  },
+  {
+    name: "Smith Johnson",
+    location: "New York",
+    image: img003,
+    text: "I have got my car repaired at Finsweet many times before, they are good at what they do. Not only did they repair my car in a short comprehensive look on all the working.",
+  },
+  {
+    name: "Smith Johnson",
+    location: "New York",
+    image: img004,
+    text: "I have got my car repaired at Finsweet many times before, they are good at what they do. Not only did they repair my car in a short comprehensive look on all the working.",
+  },
+  {
+    name: "Smith Johnson",
+    location: "New York",
+    image: img005,
+    text: "I have got my car repaired at Finsweet many times before, they are good at what they do. Not only did they repair my car in a short comprehensive look on all the working.",
+  },
+  {
+    name: "Smith Johnson",
+    location: "New York",
+    image: img006,
+    text: "I have got my car repaired at Finsweet many times before, they are good at what they do. Not only did they repair my car in a short comprehensive look on all the working.",
   },
 ];
