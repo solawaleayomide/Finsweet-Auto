@@ -28,3 +28,5 @@ export const color = [
       "We provide a full range of front end mechanical repairs for all makes and models of cars, no matter the cause. This includes",
   },
 ];
+
+export const FeaturesData = [{}];
