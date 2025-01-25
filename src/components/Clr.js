@@ -3,9 +3,9 @@ import React from "react";
 function Clr({ img, text1, text2, bgColor }) {
   return (
     <div
-      className={`relative md:w-[600px] h-[350px] md:h-[400px] overflow-hidden ${bgColor}`}
+      className={`relative md:w-[600px] h-[350px] md:h-[400px] overflow-hidden ${bgColor} md:mt-[5rem]`}
     >
-      <div className="absolute top-0 opacity-20 object-cover h-[400px] inset-0">
+      <div className="absolute top-0 opacity-20 object-cover md:h-[400px] inset-0">
         <img src={img} alt="imag" />
       </div>
       <div className="absolute inset-0 text-white container flex flex-col justify-center text-center">
