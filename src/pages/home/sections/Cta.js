@@ -2,7 +2,7 @@ import React from "react";
 import img1 from "../../../assets/Image 1.jpg";
 import img2 from "../../../assets/bg1.avif";
 import Btn from "../../../components/Btn";
-import { Ctas } from "../../../datas/Home";
+import Experience from "../../../components/Experience";
 
 function Cta() {
   return (
@@ -36,20 +36,7 @@ function Cta() {
         </div>
       </div>
 
-      <div className="container mt-6">
-        <div className="grid grid-cols-2 md:grid-cols-4 gap-4 text-center pb-7">
-          {Ctas.map((cta, _i) => {
-            return (
-              <div>
-                <p className="mb-1 text-secondary font-bold text-[2.3rem]">
-                  {cta.text1}
-                </p>
-                <p>{cta.text2}</p>
-              </div>
-            );
-          })}
-        </div>
-      </div>
+      <Experience />
     </div>
   );
 }

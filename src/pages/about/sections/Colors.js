@@ -4,7 +4,7 @@ import Clr from "../../../components/Clr";
 
 function Colors() {
   return (
-    <div className="flex flex-col md:flex-row my-10">
+    <div className="flex flex-col md:flex-row mt-10">
       {color.map((colr, _i) => {
         return (
           <Clr

@@ -2,6 +2,10 @@ import img1 from "../assets/aboutColor.png";
 import img2 from "../assets/aboutColor2.png";
 import img3 from "../assets/aboutColor2.png";
 
+import { GrServices } from "react-icons/gr";
+import { BiSolidCarMechanic } from "react-icons/bi";
+import { HiCurrencyDollar } from "react-icons/hi2";
+
 export const color = [
   {
     id: 1,
@@ -29,4 +33,23 @@ export const color = [
   },
 ];
 
-export const FeaturesData = [{}];
+export const FeaturesData = [
+  {
+    icon: <GrServices />,
+    text1: "Convenient Service",
+    text2:
+      "Through True Rich Attended does no end it his mother since real had half every him end it his mother",
+  },
+  {
+    icon: <BiSolidCarMechanic />,
+    text1: "Expert Mechanics",
+    text2:
+      "Through True Rich Attended does no end it his mother since real had half every him end it his mother",
+  },
+  {
+    icon: <HiCurrencyDollar />,
+    text1: "Transparent Pricing",
+    text2:
+      "Through True Rich Attended does no end it his mother since real had half every him end it his mother",
+  },
+];
