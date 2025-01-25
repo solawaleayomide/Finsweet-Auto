@@ -5,7 +5,7 @@ import { navLinks } from "../datas/Navlinks";
 function Footer2() {
   return (
     <div className="bg-black">
-      <div className="container pt-7">
+      <div className="container pt-7 pb-7 md:pb-0">
         <div className="md:flex md:justify-between text-center text-white">
           <h2 className="font-bold text-[1.4rem] mb-7">Finsweet</h2>
 
