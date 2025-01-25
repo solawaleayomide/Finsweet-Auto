@@ -3,7 +3,7 @@ import React from "react";
 function Clr({ img, text1, text2, bgColor }) {
   return (
     <div
-      className={`relative md:w-[600px] h-[380px] md:h-[400px] overflow-hidden ${bgColor}`}
+      className={`relative md:w-[600px] md:h-[400px] overflow-hidden ${bgColor}`}
     >
       <div className="absolute top-0 opacity-20 object-cover h-[400px] inset-0">
         <img src={img} alt="imag" />
