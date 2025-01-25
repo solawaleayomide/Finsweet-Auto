@@ -13,12 +13,12 @@ function Offer() {
           </h2>
         </div>
 
-        <div className="mt-[4rem] grid grid-cols-2 md:grid-cols-4">
+        <div className="mt-[4rem] grid grid-cols-2 md:grid-cols-4 gap-2">
           {Offers.map((offer, _i) => {
             return (
               <div
                 key={_i}
-                className="mb-1 mx-auto bg-white w-[11rem] md:w-[11.7rem] lg:w-[17.25rem] p-10 flex flex-col items-center justify-center text-center hover:bg-primary transition-colors duration-300"
+                className=" bg-white w-full p-10 flex flex-col items-center justify-center text-center hover:bg-primary transition-colors duration-300"
               >
                 <img src={offer.icon} alt="offerIcon" className="w-10 mb-4 " />
                 <h2 className="text-[.9rem] font-semibold">{offer.text}</h2>
