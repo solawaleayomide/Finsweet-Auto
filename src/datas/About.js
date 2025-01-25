@@ -6,6 +6,8 @@ import { GrServices } from "react-icons/gr";
 import { BiSolidCarMechanic } from "react-icons/bi";
 import { HiCurrencyDollar } from "react-icons/hi2";
 
+import profileImg from "../assets/ftImg.jpg";
+
 export const color = [
   {
     id: 1,
@@ -51,5 +53,38 @@ export const FeaturesData = [
     text1: "Transparent Pricing",
     text2:
       "Through True Rich Attended does no end it his mother since real had half every him end it his mother",
+  },
+];
+
+export const TeamData = [
+  {
+    image: profileImg,
+    name: "Javena Melo",
+    designation: "Founder, Director",
+  },
+  {
+    image: profileImg,
+    name: "Javena Melo",
+    designation: "Founder, Director",
+  },
+  {
+    image: profileImg,
+    name: "Javena Melo",
+    designation: "Founder, Director",
+  },
+  {
+    image: profileImg,
+    name: "Javena Melo",
+    designation: "Founder, Director",
+  },
+  {
+    image: profileImg,
+    name: "Javena Melo",
+    designation: "Founder, Director",
+  },
+  {
+    image: profileImg,
+    name: "Javena Melo",
+    designation: "Founder, Director",
   },
 ];
