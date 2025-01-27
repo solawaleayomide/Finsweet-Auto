@@ -31,19 +31,19 @@ function BlogFourSection() {
         <div className="flex-1">
           {BlogFourLeftData.map((leftData) => {
             return (
-              <div className="flex flex-1 felx-col flex-row items-center gap-4 mb-4">
+              <div className="flex flex-1 flex-col md:flex-row items-center gap-4 mb-[3.5rem] md:mb-4">
                 {/* Left Image */}
-                <div className="w-[12rem] h-[12rem]">
+                <div className="w-[16rem] md:w-[12rem] md:h-[12rem]">
                   <img
                     src={leftData.image}
                     alt="leftImage"
-                    className="w-full h-full object-cover rounded"
+                    className="w-full h-full object-cover"
                   />
                 </div>
 
                 {/* Right Text Content */}
-                <div className="flex-1">
-                  <p className="mb-2 font-bold md:text-[1.6rem] leading-8">
+                <div className="flex-1 text-center md:text-start">
+                  <p className="mb-2 font-bold text-[1.6rem] leading-8">
                     {leftData.text1}
                   </p>
                   <h2>{leftData.text2}</h2>
