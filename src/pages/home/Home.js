@@ -1,4 +1,4 @@
-import React from "react";
+import React, { useEffect } from "react";
 import Hero from "./sections/Hero";
 import Qoute from "./sections/Qoute";
 import Process from "./sections/Process";
@@ -9,6 +9,9 @@ import Testimonials from "./sections/Testimonials";
 import Faqs from "./sections/Faqs";
 
 function Home() {
+  useEffect(() => {
+    window.scrollTo(0, 0);
+  }, []);
   return (
     <div>
       <Hero />

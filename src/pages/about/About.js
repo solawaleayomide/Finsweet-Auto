@@ -1,4 +1,4 @@
-import React from "react";
+import React, { useEffect } from "react";
 import Header from "./sections/Header";
 import Steps from "./sections/Steps";
 import Colors from "./sections/Colors";
@@ -7,6 +7,10 @@ import CtaCard from "../../components/CtaCard";
 import Team from "./sections/Team";
 
 function About() {
+  useEffect(() => {
+    window.scrollTo(0, 0);
+  }, []);
+
   return (
     <div>
       <Header />

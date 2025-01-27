@@ -9,8 +9,10 @@ function Clr({ img, text1, text2, bgColor }) {
         <img src={img} alt="imag" />
       </div>
       <div className="absolute inset-0 text-white container flex flex-col justify-center text-center">
-        <h2 className="font-bold text-[2rem] leading-8 mb-3">{text1}</h2>
-        <p>{text2}</p>
+        {text1 && (
+          <h2 className="font-bold text-[2rem] leading-8 mb-3">{text1}</h2>
+        )}
+        {text2 && <p>{text2}</p>}
       </div>
     </div>
   );

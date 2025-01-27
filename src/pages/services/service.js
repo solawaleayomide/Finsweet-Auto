@@ -1,11 +1,15 @@
-import React from "react";
+import React, { useEffect } from "react";
 import Header from "./sections/Header";
 import ServiceSection from "./sections/ServiceSection";
 import How1 from "./sections/How1";
 import How2 from "./sections/How2";
 import CtaCard from "../../components/CtaCard";
 
-function service() {
+function Service() {
+  useEffect(() => {
+    window.scrollTo(0, 0);
+  }, []);
+
   return (
     <div>
       <Header />
@@ -17,4 +21,4 @@ function service() {
   );
 }
 
-export default service;
+export default Service;
